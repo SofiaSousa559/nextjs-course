@@ -1,0 +1,26 @@
+.content {
+  background-color: var(--color-grey-100);
+  border-radius: 8px;
+  margin: var(--size-8) auto;
+  max-width: 60rem;
+  width: 95%;
+  padding: var(--size-4);
+  line-height: var(--size-8);
+  font-size: var(--size-5);
+}
+
+.content p {
+  color: var(--color-grey-800);
+}
+
+.content .image {
+  margin: var(--size-4) auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: var(--size-8);
+  }
+}

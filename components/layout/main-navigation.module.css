@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 6rem;
+  align-items: center;
+  justify-content: space-between; /* fazer com que cada elemento fique colocado a um dos lados*/
+  background-color: var(--color-grey-900);
+  padding: 0 10%;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  align-items: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+.header li {
+  margin: 0 var(--size-4);
+}
+
+.a {
+  color: var(--color-grey-100);
+  font-size: var(--size-4);
+  margin: 10px;
+}
+
+.a:hover,
+.a:active,
+.a.active {
+  color: var(--color-grey-200);
+}
+
+@media (min-width: 768px) {
+  .header ul {
+    gap: 0.5rem;
+  }
+
+  .a {
+    font-size: var(--size-5);
+  }
+}
